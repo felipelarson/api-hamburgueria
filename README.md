@@ -101,3 +101,7 @@ header {
 ### delete products
 
 `DELETE /products/:id`
+
+header {
+    Authorization: Bearer token
+}
