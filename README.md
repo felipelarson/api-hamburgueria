@@ -6,7 +6,7 @@ https://server-felipe.herokuapp.com/
 
 ## Users
 
-### cadastro
+### Cadastro
 
 POST /register
 
@@ -19,7 +19,7 @@ POST /register
 }
 ```
 
-### login
+### Login
 
 `POST /login`
 
@@ -30,7 +30,7 @@ POST /register
 }
 ```
 
-## Teams
+## Products
 
 ### create new products
 
