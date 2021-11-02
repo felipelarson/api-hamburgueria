@@ -105,3 +105,79 @@ header {
 header {
     Authorization: Bearer token
 }
+
+## Cart
+
+### create new cart
+
+`Post /cart`
+
+header {
+    Authorization: Bearer token
+}
+
+```json
+{
+    "name": "Hamburguer",
+    "category": "Sanduíches",
+    "price": 7.99,
+    "userId": 2
+}
+```
+
+### get cart
+
+`GET /cart`
+
+```json
+[
+ {
+    "id": 1,
+    "name": "Hamburguer",
+    "category": "Sanduíches",
+    "price": 7.99,
+    "userId": 2
+  }
+]
+```
+
+### get only cart
+
+`GET /cart/:id`
+
+```json
+[
+ {
+    "id": 1,
+    "name": "Hamburguer",
+    "category": "Sanduíches",
+    "price": 7.99,
+    "userId": 2
+  }
+]
+```
+
+### update cart
+
+`PATCH /cart/:id`
+
+header {
+    Authorization: Bearer token
+}
+
+```json
+{
+    "name": "Hamburguer upgrade",
+    "category": "Sanduíches",
+    "price": 7.99,
+    "userId": 2
+}
+```
+
+### delete cart
+
+`DELETE /cart/:id`
+
+header {
+    Authorization: Bearer token
+}
