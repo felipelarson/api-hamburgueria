@@ -121,7 +121,8 @@ header {
     "name": "Hamburguer",
     "category": "Sanduíches",
     "price": 7.99,
-    "userId": 2
+    "userId": 2,
+    "quantity": 1
 }
 ```
 
@@ -136,7 +137,8 @@ header {
     "name": "Hamburguer",
     "category": "Sanduíches",
     "price": 7.99,
-    "userId": 2
+    "userId": 2,
+    "quantity": 1
   }
 ]
 ```
@@ -152,7 +154,8 @@ header {
     "name": "Hamburguer",
     "category": "Sanduíches",
     "price": 7.99,
-    "userId": 2
+    "userId": 2,
+    "quantity": 1
   }
 ]
 ```
@@ -170,7 +173,8 @@ header {
     "name": "Hamburguer upgrade",
     "category": "Sanduíches",
     "price": 7.99,
-    "userId": 2
+    "userId": 2,
+    "quantity": 2
 }
 ```
 
